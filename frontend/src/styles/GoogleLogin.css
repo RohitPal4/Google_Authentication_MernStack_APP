@@ -1,0 +1,74 @@
+/* GoogleLogin.css */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.login-image {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    background-color: #ffffff;
+    color: #757575;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-button:hover {
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.login-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.login-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .login-image {
+        width: 150px;
+        height: 150px;
+    }
+    .login-title {
+        font-size: 20px;
+    }
+    .login-button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
